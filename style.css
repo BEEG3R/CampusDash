@@ -1,3 +1,9 @@
+/*
+Style.css is the stylesheet for the CampusDash website.
+Author: Andrew Frank
+Contributors: (add)
+*/
+
 .btn-group .button{
 	background-color: orange;
 	border: 1px solid black;
@@ -20,9 +26,9 @@
 }
 
 .menu-btn .button {
-	background-color: orange;
+	background-color: black;
 	border: 1px solid black;
-	color: black;
+	color: white;
 	padding: 10px 48px;
 	text-align: center;
 	text-decoration: none;
@@ -35,6 +41,10 @@
   	background-color: #736f6e;
 }
 
+.menu-btn .button:hover {
+	background-color: #736f6e;
+}
+
 .home-btn .button {
 	background-color: orange;
 	border: 1px solid black;
@@ -45,23 +55,21 @@
 	display: inline-block;
 	font-size: 24px;
 	cursor: pointer;
-}
-
-.menu-btn .button:hover {
-	background-color: #736f6e;
+	float: right;
 }
 
 .column {
 	float: left;
 	padding: 10px;
 	height: 600px;
+	border: 2px solid black;
 }
 
 .column2 {
 	float: left;
 	width: 20%;
 	padding: 10px;
-	height: 600px;
+	height: 1000px;
 	border: 2px solid black;
 }
 
