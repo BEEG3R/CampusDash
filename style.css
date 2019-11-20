@@ -35,10 +35,40 @@
   	background-color: #736f6e;
 }
 
+.home-btn .button {
+	background-color: orange;
+	border: 1px solid black;
+	color: black;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.menu-btn .button:hover {
+	background-color: #736f6e;
+}
+
 .column {
 	float: left;
 	padding: 10px;
 	height: 600px;
+}
+
+.column2 {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	height: 600px;
+	border: 2px solid black;
+}
+
+.row2:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .left, .right {
