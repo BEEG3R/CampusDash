@@ -41,10 +41,6 @@ Contributors: (add)
   	background-color: #736f6e;
 }
 
-.menu-btn .button:hover {
-	background-color: #736f6e;
-}
-
 .home-btn .button {
 	background-color: orange;
 	border: 1px solid black;
@@ -56,6 +52,27 @@ Contributors: (add)
 	font-size: 16px;
 	cursor: pointer;
 	float: right;
+}
+
+.home-btn .button:hover {
+	background-color: #736f6e;
+}
+
+.order-btn .button {
+	background-color: orange;
+	border: 1px solid black;
+	color: black;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	float: left;
+}
+
+.order-btn .button:hover {
+	background-color: #736f6e;
 }
 
 .column {
