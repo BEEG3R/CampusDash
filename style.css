@@ -25,6 +25,11 @@ Contributors: (add)
   	background-color: #736f6e;
 }
 
+label {
+  font-size:50px;
+  display: inline-block;
+}
+
 .menu-btn .button {
 	background-color: black;
 	border: 1px solid black;
